@@ -1,0 +1,25 @@
+.text-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+}
+
+.style-text{
+width: 30%;
+}
+
+.submit-btn{
+margin-top: 20px;
+}
+
+.login-form-container{
+  display: flex;
+  align-items: center;
+}
+
+.h1-form{
+    margin-right: 4%;
+    margin-left: 20%;
+}

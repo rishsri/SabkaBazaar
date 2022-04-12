@@ -1,0 +1,72 @@
+
+.wrapper{
+    width: 1160px;
+    margin: 0 auto;
+}
+.slides-view ul li{
+    display: block;
+    box-shadow: 0px 3px 6px #00000029;
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.slides-view ul li:nth-child(odd) .text-area{
+    text-align: right;
+    width:100%;
+    position: relative;
+}
+.slides-view ul li:nth-child(odd) .text-area img{
+    position: absolute;
+    left: 3%;
+    top: -10%;
+    max-width: 186px;
+}
+.slides-view ul li:nth-child(even) .text-area{
+    text-align: left;
+    width: 100%;
+    position: relative;
+}
+.slides-view ul li:nth-child(odd) .text-area .product-info{
+    padding: 0px 60px 0 0px;
+    
+}
+.slides-view ul li:nth-child(even) .text-area .product-info{
+    padding: 0px 0 0 100px;
+    width: 300px;
+    text-align: center;
+}
+.slides-view ul li:nth-child(even) .text-area img{
+    position: absolute;
+    right: 6%;
+    top: -1%;
+    max-width: 206px;
+
+}
+.slides-view ul li .text-area .product-info h5 {
+    font-size: 18px;
+    color: #253858;
+    line-height: 30px;
+}
+.slides-view ul li .text-area .product-info p{
+    font-size: 14px;
+    color: #253858;
+}
+.slides-view ul li .text-area .product-info button{
+    background: #c03057;
+    min-width: 80px;
+    border: transparent;
+    height: 30px;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.wrapper .MuiPaper-elevation {
+    height: 0px;
+}
+
+.wrapper .MuiButton-text {
+    bottom: 100px;
+}

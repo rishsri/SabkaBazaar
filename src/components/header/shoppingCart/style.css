@@ -1,0 +1,96 @@
+.dialog.MuiDialog-root{
+    position: fixed;
+    z-index: 1300;
+    right: 0px;
+    bottom: 0;
+    top: 15%;
+    left: 64%;
+}
+
+.dialog .MuiPaper-elevation4{
+  height: 50px;
+  background-color: #0d0d0e;
+}
+
+.dialog .MuiTypography-h6{
+    margin: 0px 0px 10px 0px;
+}
+
+.dialog .MuiIconButton-root  {
+    margin: 0px 0px 10px 0px ;
+}
+
+.dialog .MuiPaper-rounded{
+    background-color:  rgb(226, 226, 226);
+}
+
+.empty-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+    
+}
+
+.empty-cart .heading {
+    font-weight: bold;
+    
+}
+
+.btn-color {
+    display: flex;
+    align-items: end;
+    /* justify-content: end; */
+    height: 100%;
+}
+
+.btn-color .MuiButton-contained{
+    background-color: rgb(224, 46, 76);
+    width: 100%;
+
+}
+
+.cart-product{
+    display: flex;
+    margin: 28px 0px 10px 0px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #fff;
+}
+
+.style-botton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn-style {
+    background-color: #e54460;
+    padding: 0px 6px;
+    border-radius: 16px;
+    color: #fff;
+    border: 1px solid;
+}
+
+.lowest-price{
+    display: flex;
+    margin: 28px 0px 10px 0px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    margin: 10px;
+    border-radius: 16px;
+}
+
+.product-name{
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px;
+}
+
+.single-text{
+    margin: 20px
+}
+

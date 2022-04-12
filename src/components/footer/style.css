@@ -1,0 +1,21 @@
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(199, 193, 193);
+   color: rgb(5, 5, 5);
+   z-index: 1;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+.footer p{
+    padding: 10px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    
+}

@@ -1,0 +1,42 @@
+.text-field{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        flex-direction: column; 
+}
+
+.text-field .MuiTextField-root{
+    margin: 3px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.signup-form-container{
+    display: flex;
+    align-items: center;
+  }
+
+.style-text{
+    width: 30%;
+}
+
+.submit-btn{
+    margin-top: 20px;
+}
+
+.submit-btn .MuiButton-contained{
+    background-color: rgb(224, 46, 76);
+    min-width: 405px
+}
+
+.h1-form{
+    margin-right: 4%;
+    margin-left: 20%;
+}
+
+/* .signup-heading{
+    height: 10em;
+    position: relative
+} */
+
